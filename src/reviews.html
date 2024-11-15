@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Title here</title>
+
+	<!--   Cascading Style Sheets-->
+	<!-- <link rel="stylesheet" href="css/style.css">  -->
+	<link rel="stylesheet" href="./local/templates/planB/css/style.min.css">
+	<noscript>
+		<style>
+			.content-wrapper {
+				overflow: auto;
+			}
+		</style>
+	</noscript>
+</head>
+
+<body>
+
+	<header id="header">
+		<div class="header-fly">
+			<div class="inner">
+				<a href="/" class="logo">
+					<img src="./local/templates/planB/img/logo.svg" alt="">
+				</a>
+				<nav>
+					<div class="nav-content">
+						<menu class="main-menu">
+							<li>
+								<a href="about.html">
+									О компании
+								</a>
+							</li>
+							<li>
+								<a href="services-and-prices.html">
+									Услуги и цены
+								</a>
+							</li>
+							<li>
+								<a href="our-works.html">
+									Наши работы
+								</a>
+							</li>
+							<li>
+								<a href="articles.html">
+									Статьи
+								</a>
+							</li>
+							<li>
+								<a href="reviews.html" class="active">
+									Отзывы
+								</a>
+							</li>
+							<li>
+								<a href="question-and-answer.html">
+									Вопрос-ответ
+								</a>
+							</li>
+							<li>
+								<a href="contacts.html">
+									Контакты
+								</a>
+							</li>
+						</menu>
+						<button class="btn">
+							<span class="btn__text">заказать звонок</span>
+						</button>
+						<div class="menu-social-link-box">
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в WhatsApp</span>
+								<span class="menu-social-link__icon menu-social-link__icon--whats-app"></span>
+							</a>
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в Telegram</span>
+								<span class="menu-social-link__icon menu-social-link__icon--telegram"></span>
+							</a>
+						</div>
+					</div>
+
+				</nav>
+				<a href="mailto:info@est-planb.ru" class="header-contact-link">info@est-planb.ru</a>
+				<a href="tel:+74959985885" class="header-contact-link">+7 495 998 58 85</a>
+				<div class="header-btn-box">
+					<a href="#" class="btn btn--light btn--green-hover btn--no-text"><i class="btn__icon btn__icon--whats-app"></i>Ссылка на Whats-App</a>
+					<a href="#" class="btn btn--light btn--blue-hover btn--no-text"><i class="btn__icon btn__icon--telegram"></i>Ссылка на Telegram</a>
+				 
+					<button class="btn btn--order-bell show-modal-btn" data-modal-id="modal-order-call">
+						<i class="btn__icon btn__icon--phone"></i>
+						<span class="btn__text">заказать звонок</span>
+					</button>
+					<button class="btn burger-btn">
+						<i class="btn__cross"><span></span></i>
+						<span class="btn__text">Меню</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="header-top">
+			<div class="inner">
+				<div class="header-top__main header-top-main">
+					<a href="/" class="logo">
+						<img src="./local/templates/planB/img/logo.svg" alt="">
+					</a>
+					<a href="mailto:info@est-planb.ru" class="header-contact-link">info@est-planb.ru</a>
+					<a href="tel:+74959985885" class="header-contact-link">+7 495 998 58 85</a>
+					<div class="header-btn-box">
+						<a href="#" class="btn btn--light btn--green-hover btn--no-text"><i class="btn__icon btn__icon--whats-app">Ссылка на Whats-App</i></a>
+						<a href="#" class="btn btn--light btn--blue-hover btn--no-text"><i class="btn__icon btn__icon--telegram"></i>Ссылка на Telegram</a> 
+						<button class="btn btn--order-bell show-modal-btn" data-modal-id="modal-order-call">
+							<i class="btn__icon btn__icon--phone"></i>
+							<span class="btn__text">заказать звонок</span>
+						</button>
+						<button class="btn burger-btn">
+							<i class="btn__cross"><span></span></i>
+							<span class="btn__text">Меню</span>
+						</button>
+					</div>
+				</div>
+				<nav>
+					<div class="nav-content">
+						<menu class="main-menu">
+							<li>
+								<a href="about.html">
+									О компании
+								</a>
+							</li>
+							<li>
+								<a href="services-and-prices.html">
+									Услуги и цены
+								</a>
+							</li>
+							<li>
+								<a href="our-works.html">
+									Наши работы
+								</a>
+							</li>
+							<li>
+								<a href="articles.html">
+									Статьи
+								</a>
+							</li>
+							<li>
+								<a href="reviews.html" class="active">
+									Отзывы
+								</a>
+							</li>
+							<li>
+								<a href="question-and-answer.html">
+									Вопрос-ответ
+								</a>
+							</li>
+							<li>
+								<a href="contacts.html">
+									Контакты
+								</a>
+							</li>
+						</menu>
+						<button class="btn">
+							<span class="btn__text">заказать звонок</span>
+						</button>
+						<div class="menu-social-link-box">
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в WhatsApp</span>
+								<span class="menu-social-link__icon menu-social-link__icon--whats-app"></span>
+							</a>
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в Telegram</span>
+								<span class="menu-social-link__icon menu-social-link__icon--telegram"></span>
+							</a>
+						</div>
+					</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="inner">
+                <div class="header-bottom__inner-hall">
+                    <ul class="breadcrumbs">
+                        <li>
+                            <a href="#" >Главная</a>
+                        </li>
+                        <li>
+                            <span>
+                                Отзывы
+                            </span>
+                        </li>
+                    </ul>
+                    <h1 class="page-title">Отзывы</h1> 
+                    <p>
+                        Мы гордимся тем, что создаем уникальный опыт для каждого, кто выбирает наши услуги. Ваши отзывы являются не только подтверждением нашей превосходной работы, но и источником вдохновения для дальнейшего совершенствования. 
+                    </p> 
+                    <button class="btn show-modal-btn" data-modal-id="modal-leave-a-review">
+                        <span class="btn__text">Оставить отзыв</span>
+                    </button>
+                </div> 
+			</div>
+		</div>
+	</header>
+	<main class="main"> 
+        <div class="common-main-section"> 
+            <div class="inner"> 
+                <div class="review-columns"> 
+                    <div class="review">
+                        <p>
+                            Как же хитро все устроено. Виноват застройщик, нарушил сроки передачи квартиры, значит, должен неустойку заплатить. Как бы не так. На своем опыте убедилась: ничего и никому они добровольно не выплачивают! Более того, такие ловушки расставляют, только диву даешься. Тянут время, предлагают, например, пойти на мировую и заплатить не всю сумму, а только ее часть. Ты соглашаешься, а денег все равно не платят. 
+                        </p>
+                        <p>
+                            В общем, в одиночку с ними не справится. Без опытных юристов, думаю, не видать было бы мне своей компенсации. 
+                        </p>
+                        <p>
+                            Специалисты Lex Group взяли на себя всю работу: грамотно подготовили все документы и выиграли суд, при этом не дали снизить размер неустойки и не позволили застройщику свои деньги со счетов вывести и спрятать. А я даже могла не оплачивать их услуги, пока всю сумму от застройщика не получила! 
+                        </p>
+                        <p>
+                            Оплата только за результат!
+                        </p> 
+                        <div class="review-author">
+                            <!-- <img src="./local/templates/planB/image/fedorova.png" alt="Федорова Виктория" class="review-author__avatar"> -->
+                            <img src="./local/templates/planB/img/no-photo.svg" alt="Федорова Виктория" class="review-author__avatar">
+                            <div class="review-author__text-box">
+                                <span class="review-author__name">Федорова Виктория</span>
+                                <span class="review-author__date">18.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>
+                            Здравствуйте! Пишу этот отзыв чтобы еще как-то поблагодарить компанию, которая избавили меня от беды с моим долгостроем, в особенности Марию, вы супер!
+                        </p> 
+                        <p>
+                            Мы с женой взяли квартиру в строящемся доме в ипотеку в начале 2018 года, сдача должна была произойти в первом квартале 2019 года, но у застройщика что-то не срослось, как обычно. 
+                        </p>
+                        <p>
+                            В итоге после полу года на чемоданах, на арендованной квартире, я решил обратиться к юристам и выбрал ЛексГрупп. Юристы объяснили что можно взыскать с застройщика неустойку и вот, сегодня мы выиграли суд, и скоро получим деньги, которые с лихвой компенсируют нам аренду квартиры за все это время. Еще раз, благодарю, я счастлив!
+                        </p> 
+                        <div class="review-author">
+                            <img src="./local/templates/planB/image/pashkov.png" alt="Вячеслав Пашков" class="review-author__avatar">
+                            <div class="review-author__text-box">
+                                <span class="review-author__name">Вячеслав Пашков</span>
+                                <span class="review-author__date">18.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>
+                            Я не юрист, но всегда верил в здравый смысл и силу закона. На деле оказалось, даже если ты сто раз прав, еще попробуй, докажи.
+                        </p> 
+                        <p>
+                            Была у меня ситуация. Пробовал взыскать справедливую компенсацию с застройщика, по чьей вине в нашей новенькой квартире зимой промерзали не только окна, но и стены с потолком. Про трещины по периметру окон, неровные стены и отслаивающиеся обои даже говорить не хочу. По закону застройщик обязан устранять все изъяны за свой счет в течение пяти лет. А по факту мне предъявили акт приемки, где своей подписью я подтвердил, что претензий к качеству не имею. Конец истории.
+                        </p>
+                        <div class="review-author">
+                            <img src="./local/templates/planB/image/kuklev.png" alt="Алексей Куклев" class="review-author__avatar">
+                            <div class="review-author__text-box">
+                                <span class="review-author__name">Алексей Куклев</span>
+                                <span class="review-author__date">18.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>
+                            Как же хитро все устроено. Виноват застройщик, нарушил сроки передачи квартиры, значит, должен неустойку заплатить. Как бы не так. На своем опыте убедилась: ничего и никому они добровольно не выплачивают! Более того, такие ловушки расставляют, только диву даешься. Тянут время, предлагают, например, пойти на мировую и заплатить не всю сумму, а только ее часть. Ты соглашаешься, а денег все равно не платят. 
+                        </p>
+                        <p>
+                            В общем, в одиночку с ними не справится. Без опытных юристов, думаю, не видать было бы мне своей компенсации. 
+                        </p>
+                        <p>
+                            Специалисты Lex Group взяли на себя всю работу: грамотно подготовили все документы и выиграли суд, при этом не дали снизить размер неустойки и не позволили застройщику свои деньги со счетов вывести и спрятать. А я даже могла не оплачивать их услуги, пока всю сумму от застройщика не получила! 
+                        </p>
+                        <p>
+                            Оплата только за результат!
+                        </p> 
+                        <div class="review-author">
+                            <img src="./local/templates/planB/image/fedorova.png" alt="Федорова Виктория" class="review-author__avatar">
+                            <div class="review-author__text-box">
+                                <span class="review-author__name">Федорова Виктория</span>
+                                <span class="review-author__date">18.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>
+                            Здравствуйте! Пишу этот отзыв чтобы еще как-то поблагодарить компанию, которая избавили меня от беды с моим долгостроем, в особенности Марию, вы супер!
+                        </p> 
+                        <p>
+                            Мы с женой взяли квартиру в строящемся доме в ипотеку в начале 2018 года, сдача должна была произойти в первом квартале 2019 года, но у застройщика что-то не срослось, как обычно. 
+                        </p>
+                        <p>
+                            В итоге после полу года на чемоданах, на арендованной квартире, я решил обратиться к юристам и выбрал ЛексГрупп. Юристы объяснили что можно взыскать с застройщика неустойку и вот, сегодня мы выиграли суд, и скоро получим деньги, которые с лихвой компенсируют нам аренду квартиры за все это время. Еще раз, благодарю, я счастлив!
+                        </p> 
+                        <div class="review-author">
+                            <img src="./local/templates/planB/image/pashkov.png" alt="Вячеслав Пашков" class="review-author__avatar">
+                            <div class="review-author__text-box">
+                                <span class="review-author__name">Вячеслав Пашков</span>
+                                <span class="review-author__date">18.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>
+                            Я не юрист, но всегда верил в здравый смысл и силу закона. На деле оказалось, даже если ты сто раз прав, еще попробуй, докажи.
+                        </p> 
+                        <p>
+                            Была у меня ситуация. Пробовал взыскать справедливую компенсацию с застройщика, по чьей вине в нашей новенькой квартире зимой промерзали не только окна, но и стены с потолком. Про трещины по периметру окон, неровные стены и отслаивающиеся обои даже говорить не хочу. По закону застройщик обязан устранять все изъяны за свой счет в течение пяти лет. А по факту мне предъявили акт приемки, где своей подписью я подтвердил, что претензий к качеству не имею. Конец истории.
+                        </p>
+                        <div class="review-author">
+                            <img src="./local/templates/planB/image/kuklev.png" alt="Алексей Куклев" class="review-author__avatar">
+                            <div class="review-author__text-box">
+                                <span class="review-author__name">Алексей Куклев</span>
+                                <span class="review-author__date">18.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>
+                            Как же хитро все устроено. Виноват застройщик, нарушил сроки передачи квартиры, значит, должен неустойку заплатить. Как бы не так. На своем опыте убедилась: ничего и никому они добровольно не выплачивают! Более того, такие ловушки расставляют, только диву даешься. Тянут время, предлагают, например, пойти на мировую и заплатить не всю сумму, а только ее часть. Ты соглашаешься, а денег все равно не платят. 
+                        </p>
+                        <p>
+                            В общем, в одиночку с ними не справится. Без опытных юристов, думаю, не видать было бы мне своей компенсации. 
+                        </p>
+                        <p>
+                            Специалисты Lex Group взяли на себя всю работу: грамотно подготовили все документы и выиграли суд, при этом не дали снизить размер неустойки и не позволили застройщику свои деньги со счетов вывести и спрятать. А я даже могла не оплачивать их услуги, пока всю сумму от застройщика не получила! 
+                        </p>
+                        <p>
+                            Оплата только за результат!
+                        </p> 
+                        <div class="review-author">
+                            <img src="./local/templates/planB/image/fedorova.png" alt="Федорова Виктория" class="review-author__avatar">
+                            <div class="review-author__text-box">
+                                <span class="review-author__name">Федорова Виктория</span>
+                                <span class="review-author__date">18.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>
+                            Здравствуйте! Пишу этот отзыв чтобы еще как-то поблагодарить компанию, которая избавили меня от беды с моим долгостроем, в особенности Марию, вы супер!
+                        </p> 
+                        <p>
+                            Мы с женой взяли квартиру в строящемся доме в ипотеку в начале 2018 года, сдача должна была произойти в первом квартале 2019 года, но у застройщика что-то не срослось, как обычно. 
+                        </p>
+                        <p>
+                            В итоге после полу года на чемоданах, на арендованной квартире, я решил обратиться к юристам и выбрал ЛексГрупп. Юристы объяснили что можно взыскать с застройщика неустойку и вот, сегодня мы выиграли суд, и скоро получим деньги, которые с лихвой компенсируют нам аренду квартиры за все это время. Еще раз, благодарю, я счастлив!
+                        </p> 
+                        <div class="review-author">
+                            <img src="./local/templates/planB/image/pashkov.png" alt="Вячеслав Пашков" class="review-author__avatar">
+                            <div class="review-author__text-box">
+                                <span class="review-author__name">Вячеслав Пашков</span>
+                                <span class="review-author__date">18.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>
+                            Я не юрист, но всегда верил в здравый смысл и силу закона. На деле оказалось, даже если ты сто раз прав, еще попробуй, докажи.
+                        </p> 
+                        <p>
+                            Была у меня ситуация. Пробовал взыскать справедливую компенсацию с застройщика, по чьей вине в нашей новенькой квартире зимой промерзали не только окна, но и стены с потолком. Про трещины по периметру окон, неровные стены и отслаивающиеся обои даже говорить не хочу. По закону застройщик обязан устранять все изъяны за свой счет в течение пяти лет. А по факту мне предъявили акт приемки, где своей подписью я подтвердил, что претензий к качеству не имею. Конец истории.
+                        </p>
+                        <div class="review-author">
+                            <img src="./local/templates/planB/image/kuklev.png" alt="Алексей Куклев" class="review-author__avatar">
+                            <div class="review-author__text-box">
+                                <span class="review-author__name">Алексей Куклев</span>
+                                <span class="review-author__date">18.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>
+                            Здравствуйте! Пишу этот отзыв чтобы еще как-то поблагодарить компанию, которая избавили меня от беды с моим долгостроем, в особенности Марию, вы супер!
+                        </p> 
+                        <p>
+                            Мы с женой взяли квартиру в строящемся доме в ипотеку в начале 2018 года, сдача должна была произойти в первом квартале 2019 года, но у застройщика что-то не срослось, как обычно. 
+                        </p>
+                        <p>
+                            В итоге после полу года на чемоданах, на арендованной квартире, я решил обратиться к юристам и выбрал ЛексГрупп. Юристы объяснили что можно взыскать с застройщика неустойку и вот, сегодня мы выиграли суд, и скоро получим деньги, которые с лихвой компенсируют нам аренду квартиры за все это время. Еще раз, благодарю, я счастлив!
+                        </p> 
+                        <div class="review-author">
+                            <img src="./local/templates/planB/image/pashkov.png" alt="Вячеслав Пашков" class="review-author__avatar">
+                            <div class="review-author__text-box">
+                                <span class="review-author__name">Вячеслав Пашков</span>
+                                <span class="review-author__date">18.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <ul class="pagination">
+                    <li>
+                        <a href="#" class="active">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <span>...</span>
+                    </li>
+                    <li>
+                        <a href="#">12</a>
+                    </li>
+                </ul> 
+             </div>
+        </div> 
+	</main>
+	@@include('_footer.html')
+	@@include('_modals.html') 
+	<!-- ++++++++++JavaScript++++++++++-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>  
+
+	<script src="//api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
+	<script src="./local/templates/planB/js/script.js"></script>
+	<!-- ++++++++++JavaScript end++++++++++-->
+</body>
+
+</html>

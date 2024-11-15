@@ -1,0 +1,44 @@
+.service-and-prices-header{
+    .header-bottom {  
+        padding-bottom: 160px; 
+    }
+}
+.service-and-prices-section{
+    
+    .services-box{
+        position: relative;
+        top: -90px;
+        padding-bottom: 10px;
+    }
+}
+
+
+// ===============================
+@media screen and (max-width: 940px){
+    .service-and-prices-section {
+        .services-box {
+            position: relative;
+            top: -70px;
+            padding-bottom: 0;
+        }
+    }
+    .service-and-prices-header {
+        .header-bottom {
+            padding-bottom: 110px;
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .service-and-prices-header {
+        .header-bottom {
+            padding-bottom: 90px;
+        }
+    }
+    .service-and-prices-section {
+        .services-box {
+            position: relative;
+            top: -60px;
+            padding-bottom: 0;
+        }
+    }
+}

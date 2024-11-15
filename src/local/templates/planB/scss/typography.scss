@@ -1,0 +1,132 @@
+h1, .h1{
+    display: block;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h2, .h2{
+    display: block;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h3, .h3{
+    display: block;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h4, .h4{
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h5, .h5{
+    display: block;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h6, .h6{
+    display: block;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+p, ul, ol{
+    margin: 20px 0;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6{
+    margin-bottom: 20px;
+}
+
+main{
+    ul{
+        padding: 0; 
+        list-style-type: none;
+        li{
+            position: relative;
+            padding-left: 22px;
+            box-sizing: border-box;
+            &:not(:first-child){
+                margin-top: 20px;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                top: 10px;
+                left: 0;
+                width: 15px;
+                height: 2px;
+                background-color: var(--blue);
+            }
+        }
+    }
+}
+
+a{
+    color: var(--blue);
+}
+b{
+    font-weight: 700;
+}
+// ================================================
+@media screen and (max-width: 840px){
+    h1, .h1{
+        display: block;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    h2, .h2{
+        display: block;
+        font-size: 26px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    // h3, .h3{
+    //     display: block;
+    //     font-size: 24px;
+    //     line-height: 1.2;
+    //     font-weight: 700;
+    // }
+    // h4, .h4{
+    //     display: block;
+    //     font-size: 20px;
+    //     line-height: 1.2;
+    //     font-weight: 700;
+    // }
+    // h5, .h5{
+    //     display: block;
+    //     font-size: 18px;
+    //     line-height: 1.2;
+    //     font-weight: 700;
+    // }
+    // h6, .h6{
+    //     display: block;
+    //     font-size: 16px;
+    //     line-height: 1.2;
+    //     font-weight: 700;
+    // }
+}
+@media screen and (max-width: 600px){
+    h1, .h1{
+        display: block;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    h2, .h2{
+        display: block;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+}

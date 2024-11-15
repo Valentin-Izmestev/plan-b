@@ -1,0 +1,155 @@
+ 
+.audit-form{ 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    background-color: var(--light);
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(214, 223, 239, 0.40);
+    box-sizing: border-box;
+    .audit-form__header{
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            box-sizing: border-box;
+        .section-title{
+            max-width: 360px;
+            margin: 0;
+        }
+        .audit-form__description{ 
+            max-width: 465px;
+            margin: 0;
+        }
+    }
+    .audit-form__body{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .file-funnel{
+            max-width: 366px;
+        }
+        .file-funnel-doc{
+            padding-left: 37px;
+            box-sizing: border-box;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 22px;
+                height: 26px;
+                background-image: url(../img/file-icon.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+                transform: translateY(-50%);
+            }
+            .file-funnel-doc__extension{
+                text-transform: uppercase;
+            }
+        }
+        
+    }
+    .audit-form__footer{
+        p{
+            margin: 0;
+            font-size: 13px;
+            color: var(--gray-text);
+            text-align: center;
+        }
+    }
+    .decor-line{
+        
+    }
+    
+    .columns-box{
+        grid-gap: 30px;
+    }
+    .audit-form__btn-box{
+        display: flex; 
+        align-items: flex-end;
+        .btn{
+            width: 100%;
+        }
+    }
+    .loading,
+    .success-message,
+    .error-message{
+        z-index: 10;
+    }
+}
+
+
+// ===================================
+@media screen and (max-width: 1260px){
+    .audit-form {
+        .columns-box {
+            grid-gap: 10px;
+        }
+        .audit-form__btn-box {
+            .btn {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: 1030px){
+    .audit-form-section{
+        .inner{
+            padding: 0;
+        }
+    }
+    .audit-form {
+        .audit-form__header{
+            flex-direction: column;
+            .audit-form__description {
+                max-width: 100%; 
+            }
+        }
+        
+        .columns-box--four-col,
+        .columns-box--three-col { 
+            grid-template-columns: 1fr;
+        }
+        .audit-form__body {
+            .file-funnel{
+                width: 100%;
+                max-width: 100%;
+                min-height: 142px;
+            }
+        }
+        .columns-box {
+            grid-gap: 30px;
+        }  
+    } 
+    
+}
+@media screen and (max-width: 600px){
+    .audit-form{
+        gap: 20px;
+        padding: 40px 20px;
+        .columns-box{
+            gap: 20px;
+        }
+    }
+    .audit-form {
+        .audit-form__body {
+            .file-funnel { 
+                min-height: 90px;
+            }
+        } 
+    }
+    .file-funnel {
+        .file-funnel__caption { 
+            font-size: 14px; 
+        }
+        .file-funnel__direction { 
+            font-size: 11px; 
+        }
+    }
+}

@@ -1,0 +1,130 @@
+.articles-section{
+    padding-bottom: 117px;
+    .btn-download-more{
+        margin: 0 auto;
+        margin-top: 37px;
+    }
+}
+.articles-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.article{
+    position: relative;
+    display: block;
+    // width: 100%;
+    padding-top: 138.98%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden; 
+    .article__info{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(13, 24, 51, 0.80) 6.78%, rgba(17, 38, 50, 0.20) 100%);
+        color: var(--light);
+        box-sizing: border-box; 
+        &:hover{
+            text-decoration: none; 
+        }
+    }
+    .article__date{
+        margin-bottom: 10px;
+        font-size: 13px;
+        line-height: 1.2;
+        font-weight: 600;
+    }
+    .article__caption{ 
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+}
+
+.article-author{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center; 
+
+    .article-author__photo{
+        display: block;
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        object-fit: content;
+        object-position: center center;
+    }
+    .article-author__name{
+        position: relative;
+        top: 2px;
+        font-size: 12px;
+        line-height: 1.4;
+        font-weight: 500;
+        color: var(--light);
+    }
+}
+
+.articles-sl-inner{
+    display: none;
+    position: relative;
+    padding-right: 0;
+    overflow: hidden;
+    .articles-sl{
+        width: 120%;
+    }
+}
+
+// ==========================
+
+@media screen and (max-width: 1150px){
+    .articles-section{
+        .articles-box, .btn-download-more { 
+            display: none;
+        }
+        
+    } 
+    .articles-sl-inner{
+        display: block;
+    }
+}
+@media screen and (max-width: 940px){
+    .articles-section {
+        padding-bottom: 80px;
+    }
+}
+@media screen and (max-width: 750px){
+    .articles-sl-inner{ 
+        .articles-sl{
+            width: 130%;
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .articles-section {
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 480px){
+    .articles-sl-inner{ 
+        .articles-sl{
+            width: 150%;
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    .articles-sl-inner{ 
+        .articles-sl{
+            width: 190%;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.answers-section{
+    padding-top: 100px;
+    padding-bottom: 77px;
+    background-image: url(../img/answers-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    .inner{
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+    }
+    .answers-section__left-col{
+        max-width: 499px;
+        width: 45%;
+    }
+    .answers-section__right-col{
+        max-width: 607px;
+        width: 53%;
+    }
+}
+
+
+// =====================================
+@media screen and (max-width: 940px){
+    .answers-section{
+        padding-top: 80px;
+        padding-bottom: 80px;  
+        .inner{
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .answers-section__left-col{
+            max-width: 100%;
+            width: 100%;
+        }
+        .answers-section__right-col{
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .answers-section{
+        padding-top: 60px;
+        padding-bottom: 60px;   
+    }
+}

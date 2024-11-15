@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Title here</title>
+
+	<!--   Cascading Style Sheets-->
+	<!-- <link rel="stylesheet" href="css/style.css">  -->
+	<link rel="stylesheet" href="./local/templates/planB/css/style.min.css">
+	<noscript>
+		<style>
+			.content-wrapper {
+				overflow: auto;
+			}
+		</style>
+	</noscript>
+</head>
+
+<body>
+
+	<header id="header" class="about-header">
+		<div class="header-fly">
+			<div class="inner">
+				<a href="/" class="logo">
+					<img src="./local/templates/planB/img/logo.svg" alt="">
+				</a>
+				<nav>
+					<div class="nav-content">
+						<menu class="main-menu">
+							<li>
+								<a href="about.html" class="active">
+									О компании
+								</a>
+							</li>
+							<li>
+								<a href="services-and-prices.html">
+									Услуги и цены
+								</a>
+							</li>
+							<li>
+								<a href="our-works.html">
+									Наши работы
+								</a>
+							</li>
+							<li>
+								<a href="articles.html">
+									Статьи
+								</a>
+							</li>
+							<li>
+								<a href="reviews.html">
+									Отзывы
+								</a>
+							</li>
+							<li>
+								<a href="question-and-answer.html">
+									Вопрос-ответ
+								</a>
+							</li>
+							<li>
+								<a href="contacts.html">
+									Контакты
+								</a>
+							</li>
+						</menu>
+						<button class="btn">
+							<span class="btn__text">заказать звонок</span>
+						</button>
+						<div class="menu-social-link-box">
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в WhatsApp</span>
+								<span class="menu-social-link__icon menu-social-link__icon--whats-app"></span>
+							</a>
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в Telegram</span>
+								<span class="menu-social-link__icon menu-social-link__icon--telegram"></span>
+							</a>
+						</div>
+					</div>
+
+				</nav>
+				<a href="mailto:info@est-planb.ru" class="header-contact-link">info@est-planb.ru</a>
+				<a href="tel:+74959985885" class="header-contact-link">+7 495 998 58 85</a>
+				<div class="header-btn-box">
+					<a href="#" class="btn btn--light btn--green-hover btn--no-text"><i class="btn__icon btn__icon--whats-app"></i>Ссылка на Whats-App</a>
+					<a href="#" class="btn btn--light btn--blue-hover btn--no-text"><i class="btn__icon btn__icon--telegram"></i>Ссылка на Telegram</a>
+				 
+					<button class="btn btn--order-bell show-modal-btn" data-modal-id="modal-order-call">
+						<i class="btn__icon btn__icon--phone"></i>
+						<span class="btn__text">заказать звонок</span>
+					</button>
+					<button class="btn burger-btn">
+						<i class="btn__cross"><span></span></i>
+						<span class="btn__text">Меню</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="header-top">
+			<div class="inner">
+				<div class="header-top__main header-top-main">
+					<a href="/" class="logo">
+						<img src="./local/templates/planB/img/logo.svg" alt="">
+					</a>
+					<a href="mailto:info@est-planb.ru" class="header-contact-link">info@est-planb.ru</a>
+					<a href="tel:+74959985885" class="header-contact-link">+7 495 998 58 85</a>
+					<div class="header-btn-box">
+						<a href="#" class="btn btn--light btn--green-hover btn--no-text"><i class="btn__icon btn__icon--whats-app">Ссылка на Whats-App</i></a>
+						<a href="#" class="btn btn--light btn--blue-hover btn--no-text"><i class="btn__icon btn__icon--telegram"></i>Ссылка на Telegram</a> 
+						<button class="btn btn--order-bell show-modal-btn" data-modal-id="modal-order-call">
+							<i class="btn__icon btn__icon--phone"></i>
+							<span class="btn__text">заказать звонок</span>
+						</button>
+						<button class="btn burger-btn">
+							<i class="btn__cross"><span></span></i>
+							<span class="btn__text">Меню</span>
+						</button>
+					</div>
+				</div>
+				<nav>
+					<div class="nav-content">
+						<menu class="main-menu">
+							<li>
+								<a href="about.html" class="active">
+									О компании
+								</a>
+							</li>
+							<li>
+								<a href="services-and-prices.html">
+									Услуги и цены
+								</a>
+							</li>
+							<li>
+								<a href="our-works.html">
+									Наши работы
+								</a>
+							</li>
+							<li>
+								<a href="articles.html">
+									Статьи
+								</a>
+							</li>
+							<li>
+								<a href="reviews.html">
+									Отзывы
+								</a>
+							</li>
+							<li>
+								<a href="question-and-answer.html">
+									Вопрос-ответ
+								</a>
+							</li>
+							<li>
+								<a href="contacts.html">
+									Контакты
+								</a>
+							</li>
+						</menu>
+						<button class="btn">
+							<span class="btn__text">заказать звонок</span>
+						</button>
+						<div class="menu-social-link-box">
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в WhatsApp</span>
+								<span class="menu-social-link__icon menu-social-link__icon--whats-app"></span>
+							</a>
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в Telegram</span>
+								<span class="menu-social-link__icon menu-social-link__icon--telegram"></span>
+							</a>
+						</div>
+					</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="inner">
+                <div class="header-bottom__inner-hall">
+                    <ul class="breadcrumbs">
+                        <li>
+                            <a href="#" >Главная</a>
+                        </li>
+                        <li>
+                            <span>
+                                О компании
+                            </span>
+                        </li>
+                    </ul>
+                    <h1 class="page-title">О компании</h1>
+                    <p>
+                        У нас профессиональная команда юристов и экспертов, обладающих внушительным опытом в области проектирования и строительства. 
+                    </p>
+                    <button class="btn show-modal-btn" data-modal-id="modal-get-consultation"><span class="btn__text">Получить консультацию</span></button>
+                </div>
+                
+				<div class="advantages-list">
+					<div class="advantage">
+						<span class="advantage__indicator">9 лет</span>
+						<span class="advantage__description">
+							Судебной практики по жилищным вопросам
+						</span>
+					</div>
+					<div class="advantage">
+						<span class="advantage__indicator">98,9%</span>
+						<span class="advantage__description">
+							Выигранных нашими специалистами дел
+						</span>
+					</div>
+					<div class="advantage">
+						<span class="advantage__indicator">+3500</span>
+						<span class="advantage__description">
+							Обследовали квартир и частных домов
+						</span>
+					</div>
+					<div class="advantage">
+						<span class="advantage__indicator">80%</span>
+						<span class="advantage__description">
+							Клиентов обращаются к нам по рекомендации
+						</span>
+					</div>
+					<div class="advantage">
+						<span class="advantage__indicator">+100 млн</span>
+						<span class="advantage__description">Столько мы сэкономили нашим клиентам</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		 <section class="about-detail-section">
+            <div class="inner">
+                <div class="about-detail">
+                    <div class="about-detail__left-col">
+                        <h2 class="section-title">Заголовок</h2>
+                        <p>
+                            У нас профессиональная команда юристов и технических специалистов, обладающих внушительным опытом в области проектирования и строительства. 
+                        </p>
+                        <p>
+                            Мы гарантируем правильное юридическое оформление перепланировки и реконструкции, получение необходимых согласований, приемку и регистрацию изменений характеристик недвижимости под ключ.
+                        </p> 
+                    </div>
+                    <div class="about-detail__right-col">
+                        <div class="video-box">
+                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/94-KCPOxd2Y?si=Cvt3hL7NKihOVJFG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  -->
+                            <video  poster="./local/templates/planB/image/poster-1.png">
+                                <source src="./local/templates/planB/video/VID-20191025-WA0003.mp4" type="video/mp4">
+                            </video> 
+                            <button type="button" class="video-box__video-play"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ttg-box">
+                    <div class="ttg ttg--team">
+                        <div class="ttg__icon ttg__icon--team-icon"></div>
+                        <span class="ttg__caption">Команда</span>
+                        <p>
+                            Сделает весь объем работ от Вашего обращения до получения компенсации без какой-либо предоплаты и без появления каких-либо платежей в процессе работы. Пока Вы не получите компенсацию от застройщика, наш гонорар равен 0₽
+                        </p>
+                    </div>
+                    <div class="ttg ttg--task">
+                        <div class="ttg__icon ttg__icon--task-icon"></div>
+                        <span class="ttg__caption">Задача</span>
+                        <p>
+                            Заставить застройщика возместить клиенту затраты на исправление дефектов в новой квартире. И сделать это профессионально, максимально быстро и без каких-либо забот и затрат для заказчика.
+                        </p>
+                    </div>
+                    <div class="ttg ttg--goal">
+                        <div class="ttg__icon ttg__icon--goal-icon"></div>
+                        <span class="ttg__caption">Цель</span>
+                        <p>
+                            Добиться улучшения качества возводимого нового жилья, чтобы застройщики добросовестно выполняли взятые на себя обязательства после продажи квадратных метров клиентам.
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </section>
+		 <section class="our-team-section">
+			<div class="inner">
+				<h2 class="section-title">Наша команда</h2>
+				<div class="employee-box">
+					<div class="employee" style="background-image: url(./local/templates/planB/image/fufareva_mf.png);">
+						<span class="employee__content">
+							<span class="employee__position">Руководитель юридического отдела</span>
+							<span class="employee__name">
+								Фуфарева <br>
+								Мария Федоровна
+							</span>
+						</span>
+					</div>
+					<div class="employee" style="background-image: url(./local/templates/planB/image/pustyakiv_kv.png);">
+						<span class="employee__content">
+							<span class="employee__position">Руководитель юридического отдела</span>
+							<span class="employee__name">
+								Пустяков <br>
+								Кирилл Викторович 
+							</span>
+						</span>
+					</div>
+					<div class="employee" style="background-image: url(./local/templates/planB/image/orechova_dp.png);">
+						<span class="employee__content">
+							<span class="employee__position">Главный юрист по сопровождению исполнительного производства</span>
+							<span class="employee__name">
+								Орехова <br>
+								Дарья Петровна 
+							</span>
+						</span>
+					</div>
+					<div class="employee" style="background-image: url(./local/templates/planB/image/martovickaya_ac.png);">
+						<span class="employee__content">
+							<span class="employee__position">Юрист</span>
+							<span class="employee__name">
+								Мартовицкая <br>
+								Александра Сергеевна 
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		 </section>
+		 <section class="document-section">
+			<div class="inner">
+				<h2 class="section-title">
+					Документы
+				</h2>
+				<div class="document-box">
+					<a href="#" class="document-link">
+						<span class="document-link__icon"></span>
+						<span class="document-link__info">
+							<span class="document-link__caption">Соглашение на взыскание компенсации за дефекты жилья Тариф 0</span>
+							<span class="document-link__size">PDF (158kb)</span>
+						</span>
+					</a>
+					<a href="#" class="document-link">
+						<span class="document-link__icon"></span>
+						<span class="document-link__info">
+							<span class="document-link__caption">Соглашение на взыскание компенсации за дефекты жилья Тариф 30</span>
+							<span class="document-link__size">PDF (158kb)</span>
+						</span>
+					</a>
+					<a href="#" class="document-link">
+						<span class="document-link__icon"></span>
+						<span class="document-link__info">
+							<span class="document-link__caption">Соглашение на взыскание неустойки</span>
+							<span class="document-link__size">PDF (158kb)</span>
+						</span>
+					</a>
+					<a href="#" class="document-link">
+						<span class="document-link__icon"></span>
+						<span class="document-link__info">
+							<span class="document-link__caption">Акт осмотра</span>
+							<span class="document-link__size">PDF (158kb)</span>
+						</span>
+					</a>
+					<a href="#" class="document-link">
+						<span class="document-link__icon"></span>
+						<span class="document-link__info">
+							<span class="document-link__caption">Акт осмотра (Образец)</span>
+							<span class="document-link__size">PDF (158kb)</span>
+						</span>
+					</a>
+					<a href="#" class="document-link">
+						<span class="document-link__icon"></span>
+						<span class="document-link__info">
+							<span class="document-link__caption">Образец доверенности</span>
+							<span class="document-link__size">PDF (158kb)</span>
+						</span>
+					</a>
+				</div>
+			</div>
+		 </section>
+	</main>
+	<footer id="footer">
+    <div class="inner"> 
+    </div>
+    <div class="footer__top">
+        <div class="inner">
+            <img src="./local/templates/planB/img/footer-logo.svg" alt="" class="footer__logo">
+            <ul class="footer-contacts">
+                <li>г. Москва, проезд Серебрякова, д. 14 стр. 15</li>
+                <li>+7 495 998 58 85</li>
+                <li><a href="mailto:info@est-planb.ru">info@est-planb.ru</a></li>
+                <li>Пн-Пт: 9:00 - 18:00</li>
+            </ul>
+            <menu class="footer-menu">
+                <li>
+                    <a href="about.html" class="active">
+                        О компании
+                    </a>
+                </li>
+                <li>
+                    <a href="services-and-prices.html">
+                        Услуги и цены
+                    </a>
+                </li>
+                <li>
+                    <a href="our-works.html">
+                        Наши работы
+                    </a>
+                </li>
+                <li>
+                    <a href="articles.html">
+                        Статьи
+                    </a>
+                </li>
+                <li>
+                    <a href="reviews.html">
+                        Отзывы
+                    </a>
+                </li>
+                <li>
+                    <a href="question-and-answer.html">
+                        Вопрос-ответ
+                    </a>
+                </li>
+                <li>
+                    <a href="contacts.html">
+                        Контакты
+                    </a>
+                </li>
+            </menu>
+            <div class="footer-social">
+                <span class="footer-social__caption">Мы в соц. сетях</span>
+                <ul class="footer-social-list">
+                    <li>
+                        <a href="#" class="btn btn--no-text"><i class="btn__icon btn__icon--whats-app"></i>Ссылка на Whats-App</a>	
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn--no-text"><i class="btn__icon btn__icon--telegram"></i>Ссылка на Telegram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="inner">
+            <span class="footer__copyright">© «ООО План Б» все права защищены</span>
+            <a href="#">Политика конфиденциальности</a>
+        </div>
+    </div> 
+</footer>
+	<div class="great-shadow">
+    <!--Получить консультацию-->
+    <div class="modal" id="modal-get-consultation" aria-hidden="true">
+        <button class="modal__close-btn"></button>
+        <div class="modal__content-container"> 
+            <div class="modal__header">
+                <h2 class="modal__title">
+                    Получить консультацию
+                </h2>
+                <p>
+                    У нас профессиональная команда юристов и экспертов, обладающих внушительным опытом в области проектирования и строительства.
+                </p>
+            </div>
+            <form class="form-get-consultation modal__form">
+                <input type="hidden" name="token" class="modal__token">
+                <label class="form-elem">
+                    <span class="form-elem__caption">Ваше имя <sup>*</sup></span>
+                    <input type="text" name="name" class="form-elem__field" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Телефон <sup>*</sup></span>
+                    <input type="tel" name="tel" class="form-elem__field tel-mask" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">E-mail</span>
+                    <input type="email" name="email" class="form-elem__field" pattern="^\S+@\S+\.\S+$">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Ваш вопрос</span>
+                    <textarea name="message" class="form-elem__textarea" placeholder="Введите текст"></textarea>
+                </label>
+                <button type="submit" class="btn">
+                    <span class="btn__text">Отправить заявку</span>
+                </button>
+                <p class="modal__warning">
+                    Нажимая на кнопку “отправить заявку” вы соглашаетесь с <a href="#">политикой конфиденциальности</a>
+                </p>
+            </form>
+        </div>
+
+        <div class="loading">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+        <div class="success-message">
+            <p>
+                Заявка на консультацию принята.
+            </p>
+            <p>
+                Наши сотрудники свяжутся с Вами в ближайшее время.
+            </p>
+        </div>
+        <div class="error-message">
+            <p>Ошибка отправки данных</p>
+        </div>
+    </div>
+    <!--Заказать звонок-->
+    <div class="modal" id="modal-order-call" aria-hidden="true">
+        <button class="modal__close-btn"></button>
+        <div class="modal__content-container"> 
+            <div class="modal__header">
+                <h2 class="modal__title">
+                    Заказать звонок
+                </h2>
+                <p>
+                    У нас профессиональная команда юристов и экспертов, обладающих внушительным опытом в области проектирования и строительства.
+                </p>
+            </div>
+            <form class="form-order-call modal__form">
+                <input type="hidden" name="token" class="modal__token">
+                <label class="form-elem">
+                    <span class="form-elem__caption">Ваше имя <sup>*</sup></span>
+                    <input type="text" name="name" class="form-elem__field" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Телефон <sup>*</sup></span>
+                    <input type="tel" name="tel" class="form-elem__field tel-mask" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">E-mail</span>
+                    <input type="email" name="email" class="form-elem__field" pattern="^\S+@\S+\.\S+$">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <button type="submit" class="btn">
+                    <span class="btn__text">Отправить заявку</span>
+                </button>
+                <p class="modal__warning">
+                    Нажимая на кнопку “отправить заявку” вы соглашаетесь с <a href="#">политикой конфиденциальности</a>
+                </p>
+            </form>
+        </div>
+
+        <div class="loading">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+        <div class="success-message">
+            <p>
+                Заявка на консультацию принята.
+            </p>
+            <p>
+                Наши сотрудники свяжутся с Вами в ближайшее время.
+            </p>
+        </div>
+        <div class="error-message">
+            <p>Ошибка отправки данных</p>
+        </div>
+    </div>
+    <!--Заказ услуги-->
+    <div class="modal" id="modal-service-order" aria-hidden="true">
+        <button class="modal__close-btn"></button>
+        <div class="modal__content-container"> 
+            <div class="modal__header">
+                <h2 class="modal__title">
+                    Заказать услугу
+                </h2>
+                <p>
+                    У нас профессиональная команда юристов и экспертов, обладающих внушительным опытом в области проектирования и строительства.
+                </p>
+            </div>
+            <form class="form-service-order modal__form">
+                <input type="hidden" name="token" class="modal__token">  
+                <label class="form-elem">
+                    <span class="form-elem__caption">ФИО <sup>*</sup></span>
+                    <input type="text" name="name" class="form-elem__field" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Телефон <sup>*</sup></span>
+                    <input type="tel" name="tel" class="form-elem__field tel-mask" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">E-mail</span>
+                    <input type="email" name="email" class="form-elem__field" pattern="^\S+@\S+\.\S+$">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Адрес объекта <sup>*</sup></span>
+                    <input type="text" name="address" class="form-elem__field" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Этаж</span>
+                    <input type="text" name="floor" class="form-elem__field">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Вид услуги</span>
+                    <select name="type-of-services" class="p-choices">  
+                        <option value="0" placeholder>выберите вариант</option>
+                        <option value="реконструкция">реконструкция</option>
+                        <option value="перепланировка">перепланировка</option>
+                        <option value="перевод">перевод</option>
+                        <option value="получение разрешения на новое строительство">получение разрешения на новое строительство</option> 
+                        <option value="other">иное</option>
+                    </select>
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Вид недвижимости</span>
+                    <select name="estate-type" class="p-choices">  
+                        <option value="0" placeholder>Выберите вариант</option>
+                        <option value="жилое">жилое</option> 
+                        <option value="коммерческое">коммерческое</option> 
+                        <option value="апартаменты">апартаменты</option> 
+                    </select>
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Какие документы имеются</span>
+                    <select name="available-documents" class="p-choices" multiple="multiple">  
+                        <option value="0" placeholder>Выберите вариант</option>
+                        <option value="техпаспорт">техпаспорт</option> 
+                        <option value="выписка из ЕГРН">выписка из ЕГРН</option> 
+                        <option value="проект">проект</option> 
+                        <option value="иное">иное</option> 
+                    </select> 
+                </label>
+                <div class="form-elem">
+                    <span class="form-elem__caption">Состояние</span>
+                    <label class="form-elem-radio-box">
+                        <input type="radio" name="condition" value="перепланировка сделана">
+                        <i></i>
+                        <span class="form-elem-radio-captin">перепланировка сделана</span>
+                    </label>
+                    <label class="form-elem-radio-box">
+                        <input type="radio" name="condition" value="перепланировка планируется">
+                        <i></i>
+                        <span class="form-elem-radio-captin">перепланировка планируется</span>
+                    </label> 
+                </div>
+                <div class="form-elem">
+                    <span class="form-elem__caption">Затрагиваются ли несущие конструкции</span>
+                    <label class="form-elem-radio-box">
+                        <input type="radio" name="load-bearing-structures" value="да">
+                        <i></i>
+                        <span class="form-elem-radio-captin">да</span>
+                    </label>
+                    <label class="form-elem-radio-box">
+                        <input type="radio" name="load-bearing-structures" value="нет">
+                        <i></i>
+                        <span class="form-elem-radio-captin">нет</span>
+                    </label> 
+                </div>
+
+                <button type="submit" class="btn">
+                    <span class="btn__text">Отправить заявку</span>
+                </button>
+                <p class="modal__warning">
+                    Нажимая на кнопку “отправить заявку” вы соглашаетесь с <a href="#">политикой конфиденциальности</a>
+                </p>
+            </form>
+        </div>
+
+        <div class="loading">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+        <div class="success-message">
+            <p>
+                Услуга заказана.
+            </p>
+            <p>
+                Наши сотрудники свяжутся с Вами в ближайшее время.
+            </p>
+        </div>
+        <div class="error-message">
+            <p>Ошибка отправки данных</p>
+        </div>
+    </div>
+    <!--Задать вопрос-->
+    <div class="modal" id="modal-ask-a-question" aria-hidden="true">
+        <button class="modal__close-btn"></button>
+        <div class="modal__content-container"> 
+            <div class="modal__header">
+                <h2 class="modal__title">
+                    Задать вопрос
+                </h2>
+                <p>
+                    У нас профессиональная команда юристов и экспертов, обладающих внушительным опытом в области проектирования и строительства которая постарается дать ответ на Ваш вопрос.
+                </p>
+            </div>
+            <form class="form-ask-a-question modal__form">
+                <input type="hidden" name="token" class="modal__token">
+                <label class="form-elem">
+                    <span class="form-elem__caption">Ваше имя <sup>*</sup></span>
+                    <input type="text" name="name" class="form-elem__field" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Телефон <sup>*</sup></span>
+                    <input type="tel" name="tel" class="form-elem__field tel-mask" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">E-mail</span>
+                    <input type="email" name="email" class="form-elem__field" pattern="^\S+@\S+\.\S+$">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Ваш вопрос</span>
+                    <textarea name="message" class="form-elem__textarea" placeholder="Введите текст"></textarea>
+                </label>
+                <button type="submit" class="btn">
+                    <span class="btn__text">Отправить вопрос</span>
+                </button>
+                <p class="modal__warning">
+                    Нажимая на кнопку “отправить заявку” вы соглашаетесь с <a href="#">политикой конфиденциальности</a>
+                </p>
+            </form>
+        </div>
+
+        <div class="loading">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+        <div class="success-message">
+            <p>
+                Вопрос принят.
+            </p>
+            <p>
+                Наши сотрудники дадут на него ответ в ближайшее время.
+            </p>
+        </div>
+        <div class="error-message">
+            <p>Ошибка отправки данных</p>
+        </div>
+    </div>
+    <!--Оставить отзыв-->
+    <div class="modal" id="modal-leave-a-review" aria-hidden="true">
+        <button class="modal__close-btn"></button>
+        <div class="modal__content-container"> 
+            <div class="modal__header">
+                <h2 class="modal__title">
+                    Оставить отзыв
+               </h2>
+                 <!-- <p>
+                    У нас профессиональная команда юристов и экспертов, обладающих внушительным опытом в области проектирования и строительства которая постарается дать ответ на Ваш вопрос.
+                </p> -->
+            </div>
+            <form class="form-leave-a-review modal__form">
+                <input type="hidden" name="token" class="modal__token">
+                <label class="form-elem">
+                    <span class="form-elem__caption">Ваше имя <sup>*</sup></span>
+                    <input type="text" name="name" class="form-elem__field" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Телефон <sup>*</sup></span>
+                    <input type="tel" name="tel" class="form-elem__field tel-mask" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">E-mail</span>
+                    <input type="email" name="email" class="form-elem__field" pattern="^\S+@\S+\.\S+$">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <div class="form-elem">
+                    <span class="form-elem__caption">Фотография</span>
+                    <div class="file-funnel file-funnel--only-img">
+                        <input type="file" name="file" class="file-funnel__file-input" multiple="multiple">
+                        <div class="file-funnel__text">
+                            <span class="file-funnel__caption">
+                                Загрузить изображение
+                            </span>
+                            <span class="file-funnel__direction">
+                                Вы можете загрузить свою фотографию в форматах png или jpg
+                            </span>
+
+                        </div>
+                        <div class="file-funnel__receiver">
+                            +
+                        </div>
+                        <div class="file-funnel__docs">
+                            <button type="button" class="file-funnel-btn file-funnel-btn--reset">Очистить</button>
+                        </div>
+                    </div>
+                </div>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Текст отзыва</span>
+                    <textarea name="message" class="form-elem__textarea" placeholder="Введите текст"></textarea>
+                </label>
+                <button type="submit" class="btn">
+                    <span class="btn__text">Отправить отзыв</span>
+                </button>
+                <p class="modal__warning">
+                    Нажимая на кнопку “отправить заявку” вы соглашаетесь с <a href="#">политикой конфиденциальности</a>
+                </p>
+            </form>
+        </div>
+
+        <div class="loading">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+        <div class="success-message">
+            <p>
+                Вопрос принят.
+            </p>
+            <p>
+                Наши сотрудники дадут на него ответ в ближайшее время.
+            </p>
+        </div>
+        <div class="error-message">
+            <p>Ошибка отправки данных</p>
+        </div>
+    </div> 
+    <!--Заказ анализа документов-->
+    <div class="modal" id="modal-doc-analysis" aria-hidden="true">
+        <button class="modal__close-btn"></button>
+        <div class="modal__content-container"> 
+            <div class="modal__header">
+                <h2 class="modal__title">
+                    Заказать анализ документов
+                </h2>
+                <p>
+                    У нас профессиональная команда юристов и экспертов, обладающих внушительным опытом в области проектирования и строительства.
+                </p>
+            </div>
+            <form class="form-doc-analysis modal__form">
+                <input type="hidden" name="token" class="modal__token">  
+                <label class="form-elem">
+                    <span class="form-elem__caption">ФИО <sup>*</sup></span>
+                    <input type="text" name="name" class="form-elem__field" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Телефон <sup>*</sup></span>
+                    <input type="tel" name="tel" class="form-elem__field tel-mask" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">E-mail</span>
+                    <input type="email" name="email" class="form-elem__field" pattern="^\S+@\S+\.\S+$">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Адрес объекта <sup>*</sup></span>
+                    <input type="text" name="address" class="form-elem__field" required="required">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label>
+                <label class="form-elem">
+                    <span class="form-elem__caption">Этаж</span>
+                    <input type="text" name="floor" class="form-elem__field">
+                    <!-- <span class="form-elem__error"></span> -->
+                </label> 
+                <label class="form-elem">
+                    <span class="form-elem__caption">Вид недвижимости</span>
+                    <select name="estate-type" class="p-choices">  
+                        <option value="0" placeholder>Выберите вариант</option>
+                        <option value="жилое">жилое</option> 
+                        <option value="коммерческое">коммерческое</option> 
+                        <option value="апартаменты">апартаменты</option> 
+                    </select>
+                    <!-- <span class="form-elem__error"></span> -->
+                </label> 
+                <div class="form-elem">
+                    <span class="form-elem__caption">Состояние</span>
+                    <label class="form-elem-radio-box">
+                        <input type="radio" name="condition" value="перепланировка сделана">
+                        <i></i>
+                        <span class="form-elem-radio-captin">перепланировка сделана</span>
+                    </label>
+                    <label class="form-elem-radio-box">
+                        <input type="radio" name="condition" value="перепланировка планируется">
+                        <i></i>
+                        <span class="form-elem-radio-captin">перепланировка планируется</span>
+                    </label> 
+                </div>
+                <div class="form-elem">
+                    <span class="form-elem__caption">Затрагиваются ли несущие конструкции</span>
+                    <label class="form-elem-radio-box">
+                        <input type="radio" name="load-bearing-structures" value="да">
+                        <i></i>
+                        <span class="form-elem-radio-captin">да</span>
+                    </label>
+                    <label class="form-elem-radio-box">
+                        <input type="radio" name="load-bearing-structures" value="нет">
+                        <i></i>
+                        <span class="form-elem-radio-captin">нет</span>
+                    </label> 
+                </div> 
+                <div class="form-elem">
+                    <span class="form-elem__caption">Документы для анализа</span>
+                    <div class="file-funnel file-funnel--aldoc">
+                        <input type="file" name="file[]" class="file-funnel__file-input" multiple="multiple">
+                        <div class="file-funnel__text">
+                            <span class="file-funnel__caption">
+                                Загрузить документы
+                            </span>
+                            <span class="file-funnel__direction">
+                                Вы можете загрузить документы в формате pdf, doc, docx, jpg, png
+                            </span>
+
+                        </div>
+                        <div class="file-funnel__receiver">
+                            +
+                        </div>
+                        <div class="file-funnel__docs">
+                            <button type="button" class="file-funnel-btn file-funnel-btn--reset">Очистить</button>
+                        </div>
+                    </div>  
+                </div> 
+                <button type="submit" class="btn">
+                    <span class="btn__text">Отправить </span>
+                </button>
+                <p class="modal__warning">
+                    Нажимая на кнопку “отправить заявку” вы соглашаетесь с <a href="#">политикой конфиденциальности</a>
+                </p>
+            </form>
+        </div>
+
+        <div class="loading">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+        <div class="success-message">
+            <p>
+                Документы для анализа отправлены.
+            </p>
+            <p>
+                Наши сотрудники свяжутся с Вами в ближайшее время.
+            </p>
+        </div>
+        <div class="error-message">
+            <p>Ошибка отправки данных</p>
+        </div>
+    </div>
+</div> 
+	<!-- ++++++++++JavaScript++++++++++-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>  
+
+	<script src="//api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
+	<script src="./local/templates/planB/js/script.js"></script>
+	<!-- ++++++++++JavaScript end++++++++++-->
+</body>
+
+</html>

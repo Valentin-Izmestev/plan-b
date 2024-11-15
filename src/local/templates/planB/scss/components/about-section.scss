@@ -1,0 +1,113 @@
+.about-section{
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .inner{
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+    }
+    .about-section__left-col{ 
+        width: 47%;
+        max-width: 503px;
+    }
+    .about-section__right-col{ 
+        width: 50%;
+        max-width: 608px;
+    }
+}
+.features-box{  
+     column-count:2;  
+     column-width: 100%;
+     column-gap: 20px;
+     column-fill: balance-all; 
+}
+.feature{  
+    position: relative;
+    break-inside: avoid;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--light);
+    box-shadow: 0px 2px 2px 0px rgba(214, 223, 239, 0.40);
+    box-sizing: border-box;
+    .feature__img{
+        display: block;
+        width: 40px;
+        height: auto;
+    }
+    .feature__caption{
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .feature__desctiption{
+        font-size: 14px;
+    }
+}
+
+// ================================================
+
+@media screen and (max-width: 999px){
+    .about-section{
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 100px;
+        .inner{ 
+            flex-direction: column;
+        }
+        .about-section__left-col{ 
+            width: 100%;
+            max-width: 100%;
+        }
+        .about-section__right-col{ 
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .about-section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .features-box { 
+        column-count: 2; 
+        column-width: 100%; 
+        column-gap: 10px; 
+    }
+    .feature {   
+        margin-bottom: 10px; 
+        gap: 10px;
+        padding: 16px; 
+        border-radius: 10px; 
+        .feature__img{ 
+            width: 30px;
+        }
+        .feature__caption{
+            font-size: 14px;
+        }
+        .feature__description{
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px){ 
+    .features-box{
+        column-count: 1;
+    }
+    .feature {    
+        padding-left: 56px; 
+        .feature__img{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            width: 30px;
+        } 
+    }
+}

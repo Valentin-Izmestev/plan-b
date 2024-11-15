@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Title here</title>
+
+	<!--   Cascading Style Sheets-->
+	<!-- <link rel="stylesheet" href="css/style.css">  -->
+	<link rel="stylesheet" href="./local/templates/planB/css/style.min.css">
+	<noscript>
+		<style>
+			.content-wrapper {
+				overflow: auto;
+			}
+		</style>
+	</noscript>
+</head>
+
+<body>
+
+	<header id="header" class="article-detail-header">
+		<div class="header-fly">
+			<div class="inner">
+				<a href="/" class="logo">
+					<img src="./local/templates/planB/img/logo.svg" alt="">
+				</a>
+				<nav>
+					<div class="nav-content">
+						<menu class="main-menu">
+							<li>
+								<a href="about.html">
+									О компании
+								</a>
+							</li>
+							<li>
+								<a href="services-and-prices.html">
+									Услуги и цены
+								</a>
+							</li>
+							<li>
+								<a href="our-works.html">
+									Наши работы
+								</a>
+							</li>
+							<li>
+								<a href="articles.html" class="active">
+									Статьи
+								</a>
+							</li>
+							<li>
+								<a href="reviews.html">
+									Отзывы
+								</a>
+							</li>
+							<li>
+								<a href="question-and-answer.html">
+									Вопрос-ответ
+								</a>
+							</li>
+							<li>
+								<a href="contacts.html">
+									Контакты
+								</a>
+							</li>
+						</menu>
+						<button class="btn">
+							<span class="btn__text">заказать звонок</span>
+						</button>
+						<div class="menu-social-link-box">
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в WhatsApp</span>
+								<span class="menu-social-link__icon menu-social-link__icon--whats-app"></span>
+							</a>
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в Telegram</span>
+								<span class="menu-social-link__icon menu-social-link__icon--telegram"></span>
+							</a>
+						</div>
+					</div>
+
+				</nav>
+				<a href="mailto:info@est-planb.ru" class="header-contact-link">info@est-planb.ru</a>
+				<a href="tel:+74959985885" class="header-contact-link">+7 495 998 58 85</a>
+				<div class="header-btn-box">
+					<a href="#" class="btn btn--light btn--green-hover btn--no-text"><i class="btn__icon btn__icon--whats-app"></i>Ссылка на Whats-App</a>
+					<a href="#" class="btn btn--light btn--blue-hover btn--no-text"><i class="btn__icon btn__icon--telegram"></i>Ссылка на Telegram</a>
+				 
+					<button class="btn btn--order-bell show-modal-btn" data-modal-id="modal-order-call">
+						<i class="btn__icon btn__icon--phone"></i>
+						<span class="btn__text">заказать звонок</span>
+					</button>
+					<button class="btn burger-btn">
+						<i class="btn__cross"><span></span></i>
+						<span class="btn__text">Меню</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="header-top">
+			<div class="inner">
+				<div class="header-top__main header-top-main">
+					<a href="/" class="logo">
+						<img src="./local/templates/planB/img/logo.svg" alt="">
+					</a>
+					<a href="mailto:info@est-planb.ru" class="header-contact-link">info@est-planb.ru</a>
+					<a href="tel:+74959985885" class="header-contact-link">+7 495 998 58 85</a>
+					<div class="header-btn-box">
+						<a href="#" class="btn btn--light btn--green-hover btn--no-text"><i class="btn__icon btn__icon--whats-app">Ссылка на Whats-App</i></a>
+						<a href="#" class="btn btn--light btn--blue-hover btn--no-text"><i class="btn__icon btn__icon--telegram"></i>Ссылка на Telegram</a> 
+						<button class="btn btn--order-bell show-modal-btn" data-modal-id="modal-order-call">
+							<i class="btn__icon btn__icon--phone"></i>
+							<span class="btn__text">заказать звонок</span>
+						</button>
+						<button class="btn burger-btn">
+							<i class="btn__cross"><span></span></i>
+							<span class="btn__text">Меню</span>
+						</button>
+					</div>
+				</div>
+				<nav>
+					<div class="nav-content">
+						<menu class="main-menu">
+							<li>
+								<a href="about.html">
+									О компании
+								</a>
+							</li>
+							<li>
+								<a href="services-and-prices.html">
+									Услуги и цены
+								</a>
+							</li>
+							<li>
+								<a href="our-works.html">
+									Наши работы
+								</a>
+							</li>
+							<li>
+								<a href="articles.html" class="active">
+									Статьи
+								</a>
+							</li>
+							<li>
+								<a href="reviews.html">
+									Отзывы
+								</a>
+							</li>
+							<li>
+								<a href="question-and-answer.html">
+									Вопрос-ответ
+								</a>
+							</li>
+							<li>
+								<a href="contacts.html">
+									Контакты
+								</a>
+							</li>
+						</menu>
+						<button class="btn">
+							<span class="btn__text">заказать звонок</span>
+						</button>
+						<div class="menu-social-link-box">
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в WhatsApp</span>
+								<span class="menu-social-link__icon menu-social-link__icon--whats-app"></span>
+							</a>
+							<a href="#" class="menu-social-link">
+								<span class="menu-social-link__caption">мы в Telegram</span>
+								<span class="menu-social-link__icon menu-social-link__icon--telegram"></span>
+							</a>
+						</div>
+					</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="inner">
+                <div class="header-bottom__inner-hall">
+                    <ul class="breadcrumbs">
+                        <li>
+                            <a href="#" >Главная</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Наши работы
+                            </a>
+                        </li>
+                        <li>
+                            <span>
+                                «Золотая середина, или Не время рисковать»
+                            </span>
+                        </li>
+                    </ul>
+                    <h1 class="page-title">«Золотая середина, или Не время рисковать»</h1>
+                    <p>
+                        У нас профессиональная команда юристов и технических специалистов, обладающих внушительным опытом в области проектирования и строительства. 
+                    </p> 
+                    <div class="header-article-detail">
+                        <span class="header-article-detail__date">17.08.2022</span>
+                        <span class="article-author">
+                            <img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+                            <span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+                        </span>
+                    </div>
+                </div> 
+			</div>
+		</div>
+	</header>
+	<main class="main"> 
+        <div class="article-detail">
+            <div class="inner">
+                <div class="lightgallery-box" data-src="./local/templates/planB/image/article-detail-img.png">
+                     <img src="./local/templates/planB/image/article-detail-img.png" alt="«Золотая середина, или Не время рисковать»" class="article-detail__main-img">
+                </div> 
+               
+                <div class="lightgallery-box" data-src="./local/templates/planB/image/article-detail-img-test.jpg">
+                    <!-- <img src="./local/templates/planB/image/article-detail-img-test.jpg" alt="«Золотая середина, или Не время рисковать»" class="article-detail__main-img"> -->
+                </div> 
+            </div>
+            <div class="inner article-detail__inner">
+                <p>
+                    Буквально на днях мы получили Определения суда об утверждении мировых соглашений <b>по 5 нашим клиентам</b>.
+                </p>
+                <p>
+                    <b>Как итог:</b> клиенты получат денежные средства быстрее более чем на два месяцаи вбольшем размере, чем посчитал судебный эксперт.
+                </p>
+                <p><b>Интересно как?</b></p>
+                <p><b>Рассказываем историю одного клиента</b></p>
+                <p>
+                    Мы неоднократно писали о том, что Железнодорожный городской суд не является фаворитом в нашем личном рейтинге по взыскиваемым суммам: и экспертные организации, в которые назначает суд экспертизы, по-нашему мнению не совсем объективны, и суммы штрафов и неустоек существенно ниже, чем в других судах области.
+                </p>
+                <p>
+                    И вот, к нам обратился Доверитель, который приобрел квартиру у Застройщика Главстрой-СПб.
+                </p>
+                <p>
+                    Так как у нас было всего два варианта подсудности: либо подавать иск в Железнодорожный городской суд, либо в Василеостровский суд г. Санкт-Петербурга. Было решено: <b>едем в Питер!</b>
+                </p>
+                <p>
+                    На тот момент, у нас не было устоявшейся практики, и мы не знали в какую экспертную организацию суд назначит экспертизу. А это в нашем случае, один из главных факторов, влияющих на итоговую сумму взыскания.
+                </p>
+                <p>
+                    После судебной экспертизы мы ознакомились с ее результатами и … были разочарованы. На устранение недостатков в <b>двухкомнатной квартире эксперт насчитал 74 тыс. рублей.</b>
+                </p>
+                <p>
+                    <b>Таких сумм на нашей практике не было никогда!</b>
+                </p>
+                <p>
+                    Обратились к специалистам за рецензией, вызвали эксперта на допрос. Допрос был эмоциональный, длился 40 минут. Судья объявила перерыв после допроса. На тот момент было не понятно назначит ли судья повторную экспертизу или вынесет решение и взыщет 74 тыс. рублей.
+                </p>
+                <p>
+                    Очевидно было одно: сумма не устраивает ни нашего Доверителя, ни нас, и, если повторную экспертизу не назначат, мы будем бороться за интересы потребителя до последней инстанции.
+                </p>
+                <p>
+                    В этот же день с предложением о заключении мирового соглашения к нам обратился Застройщик.
+                </p>
+                <p>
+                    <b>Взвесив все за и против, мы решили - мировому соглашению быть!</b>
+                </p>
+                <ul>
+                    <li>
+                        Удалось согласовать сумму 250 тыс. рублей вместо 74 тыс. рублей и срок, в течение которого Застройщик обязан перевести деньги Доверителю – 15 дней с даты утверждения мирового соглашения.
+                    </li>
+                    <li>
+                        Не всегда Застройщики предлагают хорошие условия мирового соглашения. Бывали случаи, когда застройщик предлагал 25 тыс. рублей вместо 760 тыс. рублей+ «что-то» устранить…
+                    </li>
+                    <li>
+                        Это история показывает, что в любой ситуации нужно исходить из обстоятельств конкретного дела и принимать взвешенные решения для достижения максимально возможного результата.
+                    </li>
+                </ul>
+                <form class="form form-question-to-specialist rL">
+                    <span class="form__caption">Задайте вопрос специалисту!</span>
+                    <div class="columns-box columns-box--two-col">
+                        <label class="form-elem">
+                            <span class="form-elem__caption">Как к вам обращаться <sup>*</sup></span>
+                            <input type="text" name="name" class="form-elem__field">
+                            <!-- <span class="form-elem__error"></span> -->
+                        </label>
+                        <label class="form-elem">
+                            <span class="form-elem__caption">Номер телефона <sup>*</sup></span>
+                            <input type="tel" name="tel" class="form-elem__field tel-mask" placeholder="+7">
+                            <!-- <span class="form-elem__error"></span> -->
+                        </label> 
+                    </div>
+                    <label class="form-elem">
+                        <span class="form-elem__caption">Ваш вопрос</span>
+                        <textarea name="message" class="form-elem__textarea"></textarea>
+                    </label>
+                    <div class="form__footer">
+                        <button class="btn">
+                            <span class="btn__text">отправить</span>
+                        </button>
+                        <p class="form__agreement">
+                            Нажимая на кнопку “отправить заявку” вы соглашаетесь с <a href="#">политикой конфиденциальности</a>
+                        </p>
+                    </div>
+					<div class="loading">
+						<div class="spinner">
+							<div class="bounce1"></div>
+							<div class="bounce2"></div>
+							<div class="bounce3"></div>
+						</div>
+					</div>
+					<div class="success-message">
+						<p>
+							Вопрос принят.
+						</p>
+						<p>
+							Наши сотрудники дадут на него ответ в ближайшее время.
+						</p>
+					</div>
+					<div class="error-message">
+						<p>Ошибка отправки данных</p>
+					</div>
+                </form>
+            </div>
+        </div>
+        <section class="articles-section">
+			<div class="inner">
+				<h2 class="section-title">Статьи</h2>
+				<div class="articles-box">
+					<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-1.png)">
+						<span class="article__info">
+							<span class="article__date">17.08.2022</span>
+							<span class="article__caption">«Золотая середина, или Не время рисковать»</span>
+							<span class="article-author">
+								<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+								<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+							</span>
+						</span>
+					</a>
+					<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-2.png)">
+						<span class="article__info">
+							<span class="article__date">17.08.2022</span>
+							<span class="article__caption">Территориальная подсудность: В какой суд подавать исковое заявление и как выбрать нейтральную территорию?</span>
+							<span class="article-author">
+								<img src="./local/templates/planB/image/kurganova.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+								<span class="article-author__name">Курганова Ксения Евгеньевна</span>
+							</span>
+						</span>
+					</a>
+					<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-3.png)">
+						<span class="article__info">
+							<span class="article__date">17.08.2022</span>
+							<span class="article__caption">История одного доверителя, или Расходам на аренду жилья – быть!</span>
+							<span class="article-author">
+								<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+								<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+							</span>
+						</span>
+					</a>
+					<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-4.png)">
+						<span class="article__info">
+							<span class="article__date">17.08.2022</span>
+							<span class="article__caption">«Я и сам смогу! Или скупой платит дважды?»</span>
+							<span class="article-author">
+								<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+								<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+							</span>
+						</span>
+					</a>
+					<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-5.png)">
+						<span class="article__info">
+							<span class="article__date">17.08.2022</span>
+							<span class="article__caption">«Золотая середина, или Не время рисковать»</span>
+							<span class="article-author">
+								<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+								<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+							</span>
+						</span>
+					</a>
+					<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-6.png)">
+						<span class="article__info">
+							<span class="article__date">17.08.2022</span>
+							<span class="article__caption">Территориальная подсудность: В какой суд подавать исковое заявление и как выбрать нейтральную территорию?</span>
+							<span class="article-author">
+								<img src="./local/templates/planB/image/kurganova.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+								<span class="article-author__name">Курганова Ксения Евгеньевна</span>
+							</span>
+						</span>
+					</a>
+					<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-7.png)">
+						<span class="article__info">
+							<span class="article__date">17.08.2022</span>
+							<span class="article__caption">История одного доверителя, или Расходам на аренду жилья – быть!</span>
+							<span class="article-author">
+								<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+								<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+							</span>
+						</span>
+					</a>
+					<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-8.png)">
+						<span class="article__info">
+							<span class="article__date">17.08.2022</span>
+							<span class="article__caption">«Я и сам смогу! Или скупой платит дважды?»</span>
+							<span class="article-author">
+								<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+								<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<button class="btn-download-more">
+					<span class="btn-download-more__text">Загрузить ещё</span>
+					<span class="btn-download-more__arrows"></span>
+				</button>
+			</div>
+			<div class="inner articles-sl-inner">
+				<!-- Slider main container -->
+				<div class="swiper articles-sl"> 
+					<div class="swiper-wrapper"> 
+						<div class="swiper-slide">
+							<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-1.png)">
+								<span class="article__info">
+									<span class="article__date">17.08.2022</span>
+									<span class="article__caption">«Золотая середина, или Не время рисковать»</span>
+									<span class="article-author">
+										<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+										<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-2.png)">
+								<span class="article__info">
+									<span class="article__date">17.08.2022</span>
+									<span class="article__caption">Территориальная подсудность: В какой суд подавать исковое заявление и как выбрать нейтральную территорию?</span>
+									<span class="article-author">
+										<img src="./local/templates/planB/image/kurganova.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+										<span class="article-author__name">Курганова Ксения Евгеньевна</span>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-3.png)">
+								<span class="article__info">
+									<span class="article__date">17.08.2022</span>
+									<span class="article__caption">История одного доверителя, или Расходам на аренду жилья – быть!</span>
+									<span class="article-author">
+										<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+										<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+									</span>
+								</span>
+							</a>
+						</div> 
+						<div class="swiper-slide">
+							<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-4.png)">
+								<span class="article__info">
+									<span class="article__date">17.08.2022</span>
+									<span class="article__caption">«Я и сам смогу! Или скупой платит дважды?»</span>
+									<span class="article-author">
+										<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+										<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+									</span>
+								</span>
+							</a>
+						</div> 
+						<div class="swiper-slide">
+							<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-5.png)">
+								<span class="article__info">
+									<span class="article__date">17.08.2022</span>
+									<span class="article__caption">«Золотая середина, или Не время рисковать»</span>
+									<span class="article-author">
+										<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+										<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+									</span>
+								</span>
+							</a>
+						</div> 
+						<div class="swiper-slide">
+							<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-6.png)">
+								<span class="article__info">
+									<span class="article__date">17.08.2022</span>
+									<span class="article__caption">Территориальная подсудность: В какой суд подавать исковое заявление и как выбрать нейтральную территорию?</span>
+									<span class="article-author">
+										<img src="./local/templates/planB/image/kurganova.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+										<span class="article-author__name">Курганова Ксения Евгеньевна</span>
+									</span>
+								</span>
+							</a>
+						</div> 
+						<div class="swiper-slide">
+							<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-7.png)">
+								<span class="article__info">
+									<span class="article__date">17.08.2022</span>
+									<span class="article__caption">История одного доверителя, или Расходам на аренду жилья – быть!</span>
+									<span class="article-author">
+										<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+										<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+									</span>
+								</span>
+							</a>
+						</div> 
+						<div class="swiper-slide">
+							<a href="#" class="article" style="background-image: url(./local/templates/planB/image/news-8.png)">
+								<span class="article__info">
+									<span class="article__date">17.08.2022</span>
+									<span class="article__caption">«Я и сам смогу! Или скупой платит дважды?»</span>
+									<span class="article-author">
+										<img src="./local/templates/planB/image/fufareva.png" alt="Фуфарева Мария Фёдоровна" class="article-author__photo">
+										<span class="article-author__name">Фуфарева Мария Фёдоровна</span>
+									</span>
+								</span>
+							</a>
+						</div> 
+					</div> 
+				</div>
+			</div>
+		</section>
+	</main>
+	@@include('_footer.html')
+	@@include('_modals.html') 
+	<!-- ++++++++++JavaScript++++++++++-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>  
+
+	<script src="//api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
+	<script src="./local/templates/planB/js/script.js"></script>
+	<!-- ++++++++++JavaScript end++++++++++-->
+</body>
+
+</html>
